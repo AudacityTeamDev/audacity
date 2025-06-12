@@ -1,0 +1,54 @@
+# Internal credentials and prompts
+.internal/
+!.internal/INDUSTRY_TEMPLATES
+*.prompt.md
+*_TEMPLATE.md
+*_CREDENTIALS.md
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Build artifacts
+build/
+dist/
+*.exe
+*.dll
+*.o
+*.a
+*.lib
+*.so
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+pip-wheel-metadata/
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.hypothesis/
+.mypy_cache/ 

@@ -1,0 +1,30 @@
+# Jekyll Configuration for GitHub Pages
+
+# Site settings
+title: Audacity Offline Setup Assistant
+email: contact@audacityteamdev-enterprise.com
+description: >- # this means to ignore newlines until "baseurl:"
+  A fully guided offline setup and configuration manual for the Audacity audio editor.
+  Designed for secure, airgapped environments or corporate deployment.
+baseurl: "/audacity" # the subpath of your site, e.g. /blog
+url: "https://AudacityTeamDev.github.io" # the base hostname & protocol for your site
+twitter_username: AudacityTeamDev
+github_username:  AudacityTeamDev
+
+# Theme
+theme: jekyll-theme-minimal
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/ 
